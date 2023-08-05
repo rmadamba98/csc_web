@@ -1,0 +1,101 @@
+.csc__about-container {
+    position: relative;
+    background-color: #EC8523;
+    padding-top: 89px;    
+    text-align: left;
+    justify-content: center;
+}
+
+.csc__about-container img {
+    width: 420px;
+    height: 550px;
+    display: block;
+    position: absolute;
+    padding-left: 68%;
+    margin-top: -420px;
+}
+
+.csc__about-container-text {
+    background-color: #EC8523;    
+    text-align: left;
+}
+
+.csc__about-container h1 {
+    color: #fff;
+    font-family: var(--font-condensed);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-left: 12rem;
+}
+
+.csc__about-container h2 {
+    color: #fff;
+    font-family: var(--font-condensed);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 200%; /* 32px */
+    padding-bottom: 174px;    
+    padding-right: 40%;
+    padding-left: 12rem;
+}
+
+.csc__appr-container {
+    padding-bottom: 164px;
+    padding-left: 117px;
+    padding-right: 117px;
+    text-align: left;
+    display:flex;
+}
+
+.csc__appr-container h1 {
+    color: #000;
+    font-family: var(--font-condensed);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.csc__appr-container h2 {
+    color: #000;
+    font-family: var(--font-condensed);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 200%; /* 32px */
+}
+
+.csc__appr-container-end {
+    text-align: center;
+    font-family: var(--font-condensed);
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: normal;
+    background: linear-gradient(180deg, #EC8523 0%, #940653 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    margin-top: -50px;
+}
+
+.csc__appr-container img {
+    display: block;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: -5%;
+    width: 445px;
+    height: 550px;
+}
+
+.csc__appr-container-text{
+    padding-top: 175px;
+    padding-left: 651px;
+    padding-right: 50px;
+}
