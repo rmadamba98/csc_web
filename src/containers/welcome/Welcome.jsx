@@ -44,7 +44,7 @@ const Welcome = ({ aboutRef }) => {
           </div>
           <div className="csc__welcome-container-services-photos">
             <div className="csc__welcome-container-services-photos-suped">
-              <Link to="#suped">
+              <Link to="/suped">
                 <PopUp
                   name="SupportEd"
                   desc="School Attendance Program"

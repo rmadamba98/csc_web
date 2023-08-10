@@ -1,28 +1,17 @@
 import React from "react";
-import { Header, Welcome, About } from "./containers";
-import { Footer, NavBar } from "./components";
+import { Home, SupEd } from "./pages";
 import "./App.css";
-import { useRef } from "react";
 import { Route, Routes } from "react-router-dom";
-import SupEd from "./containers/suped/SupEd";
 
 const App = () => {
-  const aboutRef = useRef();
   return (
     <div className="App">
-      <div className="background">
-        <NavBar />
+      <div>
         <Routes>
-          <Route path="#" element={<App />} />
-          <Route path="#suped" Component={SupEd} />
+          <Route exact path="/suped" element={<SupEd />} />
+          <Route exact path="/" element={<Home />} />
         </Routes>
       </div>
-      <div className="header_bg">
-        <Header />
-        <Welcome aboutRef={aboutRef} />
-        <About ref={aboutRef} />
-      </div>
-      <Footer />
     </div>
   );
 };

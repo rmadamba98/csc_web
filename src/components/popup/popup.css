@@ -27,7 +27,7 @@
   
 .suped h1 {
     white-space: nowrap; 
-    color: white;
+    color: #fff;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -45,7 +45,7 @@
 
 .suped h2 {
     white-space: nowrap; 
-    color: white;
+    color: #fff;
     position: absolute;
     overflow: hidden;
     top: 50%;

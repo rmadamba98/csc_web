@@ -76,8 +76,14 @@
     line-height: 200%;
 }
 
-.csc__welcome-container-services-text{
+.csc__welcome-container-services-text h1{
+    color: #000;
     padding-right: 7rem;  
+}
+
+.csc__welcome-container-services-text h2 {
+    color: #000;
+    padding-right: 7rem; 
 }
 
 .csc__welcome-container-services-photos{
@@ -90,4 +96,17 @@
     margin-right: -50px;
 }
 
+.csc__welcome-container-services-photos-suped h1 {
+    color: #fff;
+}
+.csc__welcome-container-services-photos-suped h2 {
+    color: #fff;
+}
 
+.csc__welcome-container-services-photos-consult h1 {
+    color: #fff;
+}
+
+.csc__welcome-container-services-photos-consult h2 {
+    color: #fff;
+}

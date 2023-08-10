@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <div>
       <div className="csc__header-container">
-        <Link to="#">
+        <Link to="/">
           <div className="csc__navbar-links-logo">
             <img src={logo} alt="logo"></img>
           </div>
