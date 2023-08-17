@@ -1,0 +1,22 @@
+.csc__supedstats-blocks {
+    background: #ec8523;
+    height: 60px;
+    padding-bottom: 140px;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.csc__supedstats-blocks-content {
+    position: absolute;
+    display: flex;
+    margin-left: 15%;
+    margin-top: -100px;
+}
+
+.csc__supedstats-saying img {
+    margin-top: 4%;
+}
+
+.csc__supedstats-logos img {
+    margin-top: 4%;
+}

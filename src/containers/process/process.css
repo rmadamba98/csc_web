@@ -1,0 +1,44 @@
+.csc__process {
+    display:flex;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.csc__process-text {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: var(--font-normal);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 161%
+}
+
+ul.process-list {
+    list-style-type: disc;
+    text-align: left;
+}
+
+.csc__process-text button {
+    width: 98px;
+    height: 40px;
+    background: #EC8523;
+    font-family: var(--font-condensed);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 18px;
+    border-style: none;
+    cursor: pointer;
+}
+.csc__process-text button:hover {
+    transform: scale(1.02);
+    background: #940653;
+}
+
+.csc__process-image img {
+    width: 800px;
+    height: 502px;
+    margin-left: -10px;
+}

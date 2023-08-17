@@ -1,0 +1,25 @@
+.csc__model {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.csc__model-text{    
+    text-align: right;
+    font-family: var(--font-condensed);
+    font-size: 94px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 118%;
+    background: linear-gradient(180deg, #940653 0%, #EC8523 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 20%;
+    margin-top: -2%;
+}
+
+.csc__model-image {
+    float: right;
+    margin-right: 20%;
+    margin-left: 56px;
+}

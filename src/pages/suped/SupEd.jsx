@@ -1,19 +1,32 @@
 import React from "react";
-import { NavBar } from "../../components";
-import { SupHead } from "../../containers";
+import { NavBar, Footer } from "../../components";
+import {
+    SupHead,
+    SupTxt,
+    Model,
+    Process,
+    SupedStats,
+    Support,
+} from "../../containers";
 import "./suped.css";
 
 const SupEd = () => {
-  return (
-    <div className="SupEd">
-      <div className="Header">
-        <NavBar />
-      </div>
-      <div className="Body">
-        <SupHead />
-      </div>
-    </div>
-  );
+    return (
+        <div className="SupEd">
+            <div className="Header">
+                <NavBar />
+            </div>
+            <div className="Body">
+                <SupHead />
+                <SupTxt />
+                <Model />
+                <Process />
+                <SupedStats />
+                <Support />
+                <Footer />
+            </div>
+        </div>
+    );
 };
 
 export default SupEd;

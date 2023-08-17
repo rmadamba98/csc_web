@@ -1,0 +1,27 @@
+.csc__stats {
+    width: 242px;
+    height: 242px;
+    background: #940653;
+    color: #fff;
+    font-family: var(--font-normal);
+    text-align: left;
+    margin-left: 50px;
+}
+
+.csc__stats h1{
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 118%;
+    margin-left: 22px;
+    padding-top: 2%;    
+}
+
+.csc__stats h2 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 118%;
+    margin-left: 22px;
+    margin-right: 47px;
+}

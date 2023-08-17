@@ -1,0 +1,21 @@
+.supedtext h1{
+    display: inline;
+    color: #000;
+    font-family: var(--font-normal);
+    font-size: 16px;
+    font-style: bold;
+    font-weight: 550;
+    line-height: 200%;
+    text-transform: uppercase;
+
+}
+
+.supedtext h2 {
+    display: inline;
+    color: #000;
+    font-family: var(--font-normal);
+    font-size: 16px;
+    font-style: bold;
+    font-weight: 500;
+    line-height: 200%;
+}

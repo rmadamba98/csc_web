@@ -2,3 +2,8 @@ export { default as Header } from "./header/Header";
 export { default as Welcome } from "./welcome/Welcome";
 export { default as About } from "./about/About";
 export { default as SupHead } from "./suphead/SupHead";
+export { default as SupTxt } from "./suptxt/SupTxt";
+export { default as Model } from "./model/Model";
+export { default as Process } from "./process/Process";
+export { default as SupedStats } from "./supedstats/SupedStats";
+export { default as Support } from "./support/Support";
